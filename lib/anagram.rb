@@ -16,7 +16,7 @@ class Anagram
       else
       end
     end
-    return newarray
+    newarray
   end
 
 end
