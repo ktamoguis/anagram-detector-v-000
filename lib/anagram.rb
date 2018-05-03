@@ -15,6 +15,7 @@ class Anagram
         newarray << arraywords
         return newarray
       else
+        return nil
       end
     end
   end
