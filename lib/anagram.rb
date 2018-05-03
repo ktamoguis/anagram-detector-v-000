@@ -17,7 +17,7 @@ class Anagram
       else
       end
     end
-    return nil
+    return []
   end
 
 end
