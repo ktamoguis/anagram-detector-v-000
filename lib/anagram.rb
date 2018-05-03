@@ -13,11 +13,10 @@ class Anagram
     matcharray.each do |arraywords|
       if arraywords.split("").sort == @words.split("").sort
         newarray << arraywords
-        return newarray
       else
       end
     end
-    return []
+    return newarray
   end
 
 end
